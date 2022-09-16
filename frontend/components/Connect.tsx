@@ -6,8 +6,7 @@ import { injectedConnector } from "../utils/etherjsConnection/connectors";
 import useMetaMaskOnboarding from "../hooks/useMetaMaskOnBoarding";
 
 const Account = () => {
-  const { active, error, activate, chainId, account, setError } =
-    useWeb3React();
+  const { active, error, activate, account, setError } = useWeb3React();
 
   const {
     isMetaMaskInstalled,
