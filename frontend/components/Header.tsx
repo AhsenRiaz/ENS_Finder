@@ -33,6 +33,10 @@ const Header = () => {
             Coinio ICO
           </Text>
 
+          <Text size={30} css={{ textGradient: "$primaryTextGradient" }}>
+            Rinkeby Network
+          </Text>
+
           <Connect />
         </Col>
       </Row>
